@@ -16,6 +16,7 @@
 		1A500B601C3C509800EFCD14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A500B5E1C3C509800EFCD14 /* LaunchScreen.storyboard */; };
 		1A500B6B1C3C509800EFCD14 /* LockPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A500B6A1C3C509800EFCD14 /* LockPickerTests.swift */; };
 		1A500B761C3C509800EFCD14 /* LockPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A500B751C3C509800EFCD14 /* LockPickerUITests.swift */; };
+		1A500B841C414D9300EFCD14 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A500B831C414D9300EFCD14 /* RandomFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1A500B711C3C509800EFCD14 /* LockPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A500B751C3C509800EFCD14 /* LockPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockPickerUITests.swift; sourceTree = "<group>"; };
 		1A500B771C3C509800EFCD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A500B831C414D9300EFCD14 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomFunction.swift; path = ../../test/test/RandomFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1A500B511C3C509800EFCD14 /* AppDelegate.swift */,
 				1A500B531C3C509800EFCD14 /* GameScene.sks */,
 				1A500B551C3C509800EFCD14 /* GameScene.swift */,
+				1A500B831C414D9300EFCD14 /* RandomFunction.swift */,
 				1A500B571C3C509800EFCD14 /* GameViewController.swift */,
 				1A500B591C3C509800EFCD14 /* Main.storyboard */,
 				1A500B5C1C3C509800EFCD14 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			files = (
 				1A500B561C3C509800EFCD14 /* GameScene.swift in Sources */,
 				1A500B581C3C509800EFCD14 /* GameViewController.swift in Sources */,
+				1A500B841C414D9300EFCD14 /* RandomFunction.swift in Sources */,
 				1A500B521C3C509800EFCD14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
